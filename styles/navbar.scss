@@ -1,0 +1,23 @@
+nav {
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.navlink {
+    height: 21px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #14171F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
