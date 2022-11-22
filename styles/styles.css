@@ -1,0 +1,90 @@
+/* navbar begin */
+nav {
+  width: 1250px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.thebox {
+  font-family: 'Work Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #2947A9;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hone {
+  position: absolute;
+  width: 556px;
+  height: 168px;
+  left: calc(50% - 556px/2 - 330px);
+  top: 239px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  color: #292E3D;
+}
+
+/* navbar finish */
+section {
+  background-image: url(../images/bino.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.navcontact {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #F9995D;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin-left: 50px;
+}
+
+.imglogo {
+  margin-top: 10px;
+}
+
+.linklar {
+  margin-left: 280px;
+}
+
+.feature {
+  width: 163px;
+  height: 23px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.navlink {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #14171F;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 35px;
+}
